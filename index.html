@@ -35,6 +35,17 @@
 				margin-bottom: 1em;
 				list-style-type: circle;
 			}
+			.flex-2 {
+				align-items: center;
+				display: flex; 
+				flex-direction: row;
+				
+			}
+			@media (max-width: 700px) and (orientation: portrait) { 
+				.flex-2 {
+					flex-direction: column;
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -43,6 +54,7 @@
 				<picture class="csrc-logo--container">
 						<img src="./assets/img/logo-csrc.png" class="csrc-logo--image">
 				</picture>
+				<!--intro-->
 				<section>
 					<section>
 							<h1>Collserola Sport Respecte Ciclisme</h1>
@@ -51,11 +63,13 @@
 							
 					</section>
 				</section>
+				<!--situació-->
 				<section>
-					<section>
+					<section data-background-image="./assets/img/slides/barcelona-4576044_1920.jpg"
+							data-background-opacity=".8">
 							<h2>Situació actual de la BTT</h2>
 					</section>
-					<section>
+					<section >
 							<ul>
 									<li>És un dels esports més practicats a Catalunya (actualment molt per sobre del Esquí i fins i tot del futbol).</li>
 									<li>La pràctica del BTT ha crescut un 20% TCAC als últims 10 anys (de 283.000 a 1.977.000)</li>
@@ -63,16 +77,21 @@
 								</ul>
 					</section>
 					<section>
-							La tendència global futura és de creixement mínim del 10% TCAC.
+							<div>La tendència global futura és de creixement mínim del 10% TCAC.</div>
+							<img src="./assets/img/slides/Rapid-Growth-Rate.png">
 					</section>
 					<section>
 							<h4>Segons tendències Europees</h4>
 							<ul>
-								<li>La pràctica principal evoluciona del  “generalista” Cross-Country (XC) a moltes sub-disciplines.</li>
-								<li>La majoria dels practicants busquen “esbarjo + vida sana” i no competició.</li>
+								<li class="flex-2">
+									<div >La pràctica principal evoluciona del  “generalista” Cross-Country (XC) a moltes sub-disciplines.</div>
+									<div ><img src="./assets/img/slides/luc4.jpg" style="max-width:initial;"></div>
+								</li>
+								
 							</ul>
 					</section>
 				</section>
+				<!--problematica-->
 				<section>
 					<section>
 						<h2>Problemática</h2>
@@ -80,14 +99,18 @@
 					<section>
 						<h3>EL BTT és practica als Corriols</h5>
 					</section>
-					<section>
+					<section >
 						<ul>
-							<li>Si res està permès ...<span class="fragment fade-in">tot estè permès </span></li>
+							<li>
+								Si res està permès ...<span class="fragment fade-in">tot estè permès </span>
+								<img src="">
+							</li>
 							<li class="fragment">Massificació (caps de setmana i a zones concretes ...camí de les aigües, vesant sud del Parc).</li>
 							<li class="fragment">Degradació del Medi Ambient</li>
 						</ul>
 					</section>
 				</section>
+				<!--impacte medi-ambiental-->
 				<section>
 					<section><h2>Impacte Medi-ambiental</h2></section>
 					<section>
@@ -111,6 +134,7 @@
 						<h3>DE LLARG L'erosió principal es deu als episodis de pluja torrencial! </h5>
 					</section>
 				</section>
+				<!--massificació-->
 				<section>
 						<section><h2>Impacte Massificació</h2></section>
 						<section>
@@ -127,7 +151,7 @@
 							<p>Sobretot present a les pistes perifèriques on l'accés cotxe/transport públic < 4km</p>
 						</section>
 				</section>
-
+				<!--soci-economic-->
 				<section>
 						<section><h2>Impacte Sòcio-Econòmic de la BTT</h2></section>
 						<section>
@@ -143,6 +167,7 @@
 							</ul>
 						</section>
 				</section>
+				<!--experiencia global-->
 				<section>
 					<section><h2>Experiència Global</h2></section>
 					<section><h4>No som els primers</h4></section>
@@ -160,6 +185,7 @@
 						</ul>
 					</section>
 				</section>
+				<!--trail center-->
 				<section>
 					<section><h2>Trail Center</h2></section>
 					<section>
