@@ -209,7 +209,7 @@ export default {
 	defaultTiming: null,
 
 	// Enable slide navigation via mouse wheel
-	mouseWheel: false,
+	mouseWheel: true,
 
 	// Opens links in an iframe preview overlay
 	// Add `data-preview-link` and `data-preview-link="false"` to customise each link
